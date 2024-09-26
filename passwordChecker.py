@@ -1,0 +1,5 @@
+username = input("Enter username: ")
+password = input("Enter password: ")
+print("Hello, " + username)
+passLen = len(password)
+print("Your Password, " + '*'*passLen + ", is " + str(passLen) + " characters long.")
